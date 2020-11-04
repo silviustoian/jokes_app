@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_URL = `http://api.icndb.com/jokes/random`;
+const API_URL = `https://api.icndb.com/jokes/random`;
 
 function App() {
   const [joke, setJoke] = useState('');
